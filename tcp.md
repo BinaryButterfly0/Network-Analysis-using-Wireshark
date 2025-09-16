@@ -1,4 +1,4 @@
-#TCP Protocol Analysis
+🔰 TCP Protocol Analysis
 
 
 ## 🎯 Objective
@@ -15,7 +15,7 @@ The objective of this lab was to analyze TCP (Transmission Control Protocol) tra
 
 ### Files Used
 
-* [Sample PCAP file]
+[Sample PCAP file](na_pcap.pcapng)
 
 
 
@@ -44,7 +44,20 @@ In this lab, I analyzed TCP traffic, a Layer 4 transport protocol that ensures r
 
 I captured screenshots showing results
 
-* All TCP packets
-* SYN packets (connection start)
-* FIN packets (connection end)
-* TCP traffic to/from a specific host
+🔰All TCP packets
+![Alt text](ip-filter.png)
+
+🔰 SYN packets (connection start)
+![Alt text](syn==1.png)
+
+🔰FIN packets (connection end)
+![Alt text](fin==1.png)
+
+
+🔰TCP traffic to/from a specific host
+![Alt text](handshake-type.png)
+
+
+
+
+

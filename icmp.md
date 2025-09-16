@@ -1,10 +1,9 @@
-#General Packet Capture & Filtering
-
+🔰General Packet Capture & Filtering
 
 
 ## 🎯 Objective
 
-The objective of this lab is to get hands-on experience with **Wireshark** by capturing and analyzing general network traffic. Students will learn how to set up profiles, apply display/capture filters, and analyze specific protocols for investigation.
+The objective of this lab is to learn and  get hands-on experience with **Wireshark** by capturing and analyzing general network traffic.
 
 
 ## 🛠️ Lab Setup
@@ -16,7 +15,7 @@ The objective of this lab is to get hands-on experience with **Wireshark** by ca
 
 ### Files Needed
 
-* [Sample PCAP file]
+[Sample PCAP file](na_pcap.pcapng)
 
 
 
@@ -35,17 +34,21 @@ For this lab, I focused on analyzing **ICMP traffic** (Internet Control Message 
 | `icmp.type == 0` | Display Filter | Shows only ICMP Echo Replies                   |
 | `icmp`           | Capture Filter | Captures only ICMP packets during live capture |
 
----
+
 
 ## ✅ Conclusion
 
-* Learned how to create a custom profile called **“SOC Analyst.”**
-* Successfully applied **display and capture filters** to focus only on ICMP traffic.
-* This exercise showed how Wireshark can be used to filter large amounts of traffic and zero in on specific communication patterns.
+🔰Learned how to create a custom profile called **“SOC Analyst.”**
+🔰Successfully applied **display and capture filters** to focus only on ICMP traffic.
+🔰This exercise showed how Wireshark can be used to filter large amounts of traffic and zero in on specific communication patterns.
 
 Screenshots provided showing result
 
-* New profile named **“SOC Analyst.”
-* Display filter applied to view ICMP traffic.
-* Capture filter applied to collect only ICMP traffic.
+🔰New profile named **“SOC Analyst.”
+🔰Display filter applied to view ICMP traffic.
+🔰Capture filter applied to collect only ICMP traffic.
 
+
+![Alt text](Captured-file-upload.png)
+![Alt text](profile.png)
+![Alt text](icmp-1.png)

@@ -1,7 +1,6 @@
 ## HTTP Protocol Analysis
 
 
-
 ## 🎯 Objective
 
 The objective of this lab was to analyze HTTP (Hypertext Transfer Protocol) packets using Wireshark. I explored HTTP request and response headers, understood how web communication works, and learned how to detect common HTTP-based data leaks or suspicious activity.
@@ -16,7 +15,7 @@ The objective of this lab was to analyze HTTP (Hypertext Transfer Protocol) pack
 
 ### Files Used
 
- [Sample PCAP file]
+[Sample PCAP file](na_pcap.pcapng)
 
 ## 📘 Protocol Analyzed
 
@@ -50,17 +49,27 @@ In this lab, I analyzed HTTP traffic, which is an application-layer protocol use
 ---
 
 
- HTTP traffic is readable and easy to analyze in Wireshark.
+ 🔰HTTP traffic is readable and easy to analyze in Wireshark.
  By examining HTTP packets, I could detect:
 
-   Sensitive data in URLs or headers
-   Malware beaconing to C2 servers
-   Suspicious file downloads or unauthorized access
+   🔰Sensitive data in URLs or headers
+   🔰Malware beaconing to C2 servers
+   🔰Suspicious file downloads or unauthorized access
  Filters make it easier to focus on requests, responses, and cookies for investigation.
 
 
 Screenshots captured showing results
 
  All HTTP traffic
+![Alt text](http.png)
+
+
  All GET requests
+
+ ![Alt text](get.png)
+
+
  Requested resources
+
+![Alt text](http.png)
+
